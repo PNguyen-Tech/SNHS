@@ -2,8 +2,11 @@
 
 🔗 **Visit the Website:** [http://bit.ly/AECHS-SNHS-Website](http://bit.ly/AECHS-SNHS-Website)
 
-## **📘 Overview**
-The **Science National Honor Society (SNHS)** website serves as an informative hub for students, members, and visitors. It presents the organization’s mission to **promote scientific excellence** and **encourage community engagement** through educational events and service opportunities.
+# 📖 Project Overview
+
+This project demonstrates the design, deployment, and management of a cloud-hosted web application using **Microsoft Azure**.
+The website serves as the official online presence for the Alief Early College High School Science National Honor Society while showcasing practical cloud engineering skills, including Azure resource management, cloud storage, web hosting, database integration, and CI/CD automation.
+The project was developed to gain hands-on experience with enterprise cloud technologies and modern deployment practices used by organizations.
 
 ## **📑 Summary**
 This site provides:

@@ -6,7 +6,7 @@
 This project demonstrates the design, deployment, and management of a cloud-hosted web application using **Microsoft Azure**.
 The website serves as the official online website for the Alief Early College High School Science National Honor Society while showcasing cloud engineering skills, including Azure resource management, cloud storage, web hosting, database integration, and CI/CD automation.
 The project was developed to gain hands-on experience with enterprise cloud technologies and modern deployment practices used by organizations.
-
+---
 # 🎯 Project Objectives
 
 - Deploy a production-ready website to Microsoft Azure

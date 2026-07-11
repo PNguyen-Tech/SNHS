@@ -43,7 +43,31 @@ The project was developed to gain hands-on experience with enterprise cloud tech
                             ▼
                   Azure Storage Account
 ```
+---
 
+# 🚀 Features
+
+- Responsive website design
+- Organization information
+- Event announcements
+- Member recognition
+- Photo gallery
+- Contact information
+- Cloud-hosted images
+
+---
+
+# 💻 Technical Skills Demonstrated
+
+## Cloud Engineering
+
+- Microsoft Azure
+- Cloud Resource Management
+- Azure Static App Service Deployment
+- Azure Blob Storage
+- Cloud Networking Fundamentals
+- Azure Resource Groups
+- Cloud Monitoring
 The architecture separates the web application, storage, and database into independent cloud services, following Microsoft's cloud design principles for scalability and maintainability.
 
 ---

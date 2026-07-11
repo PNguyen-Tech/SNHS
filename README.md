@@ -21,14 +21,10 @@ The project was developed to gain hands-on experience with enterprise cloud tech
 ---
 
 # ☁️ Azure Services Used
-
-- Azure App Service
 - Azure Blob Storage
-- Azure SQL Database
+- Azure Cost Management & Billing
 - Azure Resource Group
-- Azure App Service Plan
-- Azure Monitor
-- Azure Identity and Access Management (IAM)
+- Azure Static App Service
 - GitHub Actions (CI/CD)
 
 **[Read the full Cloud Security Architecture Documentation here](./SNHS-Secure-Web-Architecture.md)**

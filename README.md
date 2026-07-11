@@ -27,6 +27,27 @@ The project was developed to gain hands-on experience with enterprise cloud tech
 - Azure Static App Service
 - GitHub Actions (CI/CD)
 
+---
+
+# 🏗️ Cloud Architecture
+
+```
+                     GitHub Repository
+                            │
+                            ▼
+                  GitHub Actions (CI/CD)
+                            │
+                            ▼
+                  Azure Static Web App
+                            │
+                            ▼
+                  Azure Storage Account
+```
+
+The architecture separates the web application, storage, and database into independent cloud services, following Microsoft's cloud design principles for scalability and maintainability.
+
+---
+
 **[Read the full Cloud Security Architecture Documentation here](./SNHS-Secure-Web-Architecture.md)**
 
 Overall, the website functions as a resource that reflects the purpose of SNHS and supports a growing interest in scientific learning and involvement.

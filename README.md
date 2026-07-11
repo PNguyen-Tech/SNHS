@@ -68,14 +68,49 @@ The project was developed to gain hands-on experience with enterprise cloud tech
 - Cloud Networking Fundamentals
 - Azure Resource Groups
 - Cloud Monitoring
-The architecture separates the web application, storage, and database into independent cloud services, following Microsoft's cloud design principles for scalability and maintainability.
+
+## DevOps
+
+- Git
+- GitHub
+- GitHub Actions
+- Continuous Integration
+- Continuous Deployment (CI/CD)
+- Source Control
+
+## Web Development
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
 
 ---
+
+# 🔐 Cloud Security
+
+This project incorporates several Azure security concepts, including:
+
+- HTTPS-secured web hosting
+- Role-Based Access Control (RBAC)
+- Managed Azure services
+- Secure cloud storage
+- Resource organization using Azure Resource Groups
+
+---
+
+# 📂 Repository Structure
+
+```
+/
+├── .github/
+│   └── workflows/
+├── README.md
+├── SNHS-Secure-Web-Architecture.md
+├── Server-Operations-Manual.md
+└── index.html
+```
 
 **[Read the full Cloud Security Architecture Documentation here](./SNHS-Secure-Web-Architecture.md)**
 
 Overall, the website functions as a resource that reflects the purpose of SNHS and supports a growing interest in scientific learning and involvement.
-
----
-
-✨ *Designed to engage, inform, and inspire a passion for science within our community.*

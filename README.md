@@ -112,4 +112,3 @@ This project incorporates several Azure security concepts, including:
 ```
 
 Overall, the website functions as a resource that reflects the purpose of SNHS and supports a growing interest in scientific learning and involvement.
-Testing

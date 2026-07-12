@@ -111,6 +111,4 @@ This project incorporates several Azure security concepts, including:
 └── index.html
 ```
 
-**[Read the full Cloud Security Architecture Documentation here](./SNHS-Secure-Web-Architecture.md)**
-
 Overall, the website functions as a resource that reflects the purpose of SNHS and supports a growing interest in scientific learning and involvement.

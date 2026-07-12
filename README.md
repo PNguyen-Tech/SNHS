@@ -155,13 +155,10 @@ SNHS/
 
 Planned improvements include:
 
-* Infrastructure as Code (Terraform or Bicep)
+* Infrastructure as Code (Terraform)
 * Azure Monitor for application monitoring and diagnostics
 * Azure Key Vault for centralized secret management
-* Custom domain configuration
-* Automated testing within the CI/CD pipeline
 * Performance monitoring and analytics
-* Accessibility improvements following WCAG standards
 
 ---
 

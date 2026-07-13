@@ -114,14 +114,29 @@ This project demonstrates how cloud technologies can improve operational efficie
 
 ---
 
-# 🔐 Security Practices
+## 🔒 Security, Governance & Compliance Controls
 
-This project incorporates cloud security best practices including:
+This project implements cloud security best practices to protect organizational resources, secure the deployment process, and safeguard data through identity management, encryption, and secure credential handling.
 
-* HTTPS encryption using Azure-managed certificates
-* Secure deployment credentials managed through GitHub Secrets
-* Separation of application code and media assets
-* Cloud-hosted infrastructure managed within Azure Resource Groups
+### 🆔 Identity & Access Management (IAM)
+* **Principle of Least Privilege (PoLP):** Access permissions are scoped to minimize unnecessary privileges. Azure RBAC is applied at the Resource Group level to ensure users receive only the permissions required to manage assigned resources.
+* **Role-Based Access Control (RBAC):** Administrative access to Azure resources is controlled through Azure RBAC, allowing authorized users to manage resources while preventing unauthorized changes.
+
+### 🔑 Secure Credential Management
+* **Zero Hardcoded Secrets:** No API keys, deployment tokens, or credentials are stored within the source code or configuration files.
+* **GitHub Encrypted Secrets:** Azure deployment credentials are securely stored as GitHub Encrypted Secrets and injected into the GitHub Actions workflow only during deployment.
+* **Scoped Deployment Access:** The Azure Static Web Apps deployment token is scoped specifically to the application resource, reducing unnecessary permissions and supporting the principle of least privilege.
+
+### 🛡️ Data Protection & Encryption
+* **Encryption in Transit:** HTTPS is enforced across all endpoints using Azure-managed TLS certificates, protecting data exchanged between users and Azure services.
+* **Encryption at Rest:** Azure Blob Storage uses Azure Storage Service Encryption (SSE) with Microsoft-managed AES-256 encryption to automatically protect stored data.
+* **Resource Segmentation:** Separating the web application from Azure Blob Storage isolates static content delivery from the application layer, reducing the attack surface and improving maintainability.
+
+### 🌐 Network Security
+* **Secure Service Communication:** All communication between users and Azure-hosted services is encrypted using HTTPS, ensuring secure data transmission.
+
+### 🔍 Monitoring & Operational Security
+* **Deployment Traceability:** Source changes are tracked through Git version control, while automated deployments through GitHub Actions provide deployment history and auditability.
 
 ---
 

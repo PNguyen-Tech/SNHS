@@ -55,10 +55,25 @@ This solution was built using the following Microsoft Azure services.
 
 ---
 
+## 🖥️ User Interface Transformation
+
+To address our lack of online presence, I replaced a legacy, text-based Google Form with a highly responsive, modern web interface.
+
+| BEFORE (Legacy Google Form Application) | AFTER (Cloud-Hosted Azure Portal) |
+| :---: | :---: |
+| <img src="SNHS\images\Before Google.png" width="400" alt="Legacy Google Form Application"> | <img src="SNHS\images\After Azure.png" width="400" alt="Modern Azure Web App Interface"> |
+
+### Key Improvements:
+* **Centralized Branding:** Shifted from a generic form to a custom-designed, professional web application.
+* **Responsive Layout:** Designed from the ground up to render beautifully on mobile devices, tablets, and desktop computers.
+
+---
+
 # 💼 Business Impact
 
 This project demonstrates how cloud technologies can improve operational efficiency for a small organization by:
 
+* Helped drive a 20% surge in student membership applications
 * Establishing a centralized online presence
 * Improving communication with students, parents, and faculty
 * Reducing manual website deployment tasks through automation

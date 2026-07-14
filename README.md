@@ -147,7 +147,7 @@ SNHS/
 ├── index.html                            # Main application entry point
 ├── README.md                             # Project documentation
 └── learning-progress.md                  # Project development notes
-
+```
 ---
 
 # 🚀 Future Enhancements

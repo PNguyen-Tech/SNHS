@@ -61,7 +61,7 @@ To address our lack of online presence, I replaced a legacy, text-based Google F
 
 | BEFORE (Legacy Google Form Application) | AFTER (Cloud-Hosted Azure Portal) |
 | :---: | :---: |
-| <img src="SNHS\images\Before Google.png" width="400" alt="Legacy Google Form Application"> | <img src="SNHS\images\After Azure.png" width="400" alt="Modern Azure Web App Interface"> |
+| <img src="images\Before Google.png" width="400" alt="Legacy Google Form Application"> | <img src="images\After Azure.png" width="400" alt="Modern Azure Web App Interface"> |
 
 ### Key Improvements:
 * **Centralized Branding:** Shifted from a generic form to a custom-designed, professional web application.

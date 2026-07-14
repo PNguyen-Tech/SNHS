@@ -51,25 +51,7 @@ This solution was built using the following Microsoft Azure services.
 
 # 🏗 Cloud Architecture
 
-```text
-                     Local Development (VS Code)
-                               │
-                               ▼
-                    GitHub Source Repository
-                               │
-                               ▼
-                  GitHub Actions CI/CD Pipeline
-                               │
-                               ▼
-              ┌─────────────────────────────────────┐
-              │         Microsoft Azure             │
-              │                                     │
-              │  Azure Static Web Apps             │
-              │           │                         │
-              │           ▼                         │
-              │     Azure Blob Storage             │
-              └─────────────────────────────────────┘
-```
+![Cloud Architecture Diagram](images/architecture-diagram.png)
 
 ---
 

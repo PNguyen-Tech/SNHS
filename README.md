@@ -141,10 +141,12 @@ SNHS/
 │   └── workflows/
 │       └── azure-static-web-apps-*.yml   # GitHub Actions CI/CD workflow
 │
+├── images/                               # Project diagrams and visual assets
+│   └── architecture-diagram.png          # Secure DevSecOps cloud architecture diagram
+│
 ├── index.html                            # Main application entry point
 ├── README.md                             # Project documentation
-├── learning-progress.md                  # Project development notes
-```
+└── learning-progress.md                  # Project development notes
 
 ---
 

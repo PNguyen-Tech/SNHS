@@ -32,3 +32,20 @@ Every time I want to update the website, I follow this 4-step professional visua
   ```bash
   git config --global user.name "Your Name"
   git config --global user.email "your-email@example.com"
+
+
+  ### Enhancing Business Value and Architectural Visuals
+**Date:** July 13, 2026
+
+**Note:** Focused on elevating the project documentation from a basic technical summary to an enterprise-grade portfolio piece tailored for cloud engineering and GRC roles. 
+
+**Key Updates & Activities:**
+* **Business-Oriented README:** Restructured the `README.md` to highlight business impact, system architecture, and enterprise security boundaries. Added a dedicated "Security, Governance & Compliance Controls" section detailing Identity & Access Management (PoLP), GitHub Encrypted Secrets, and Data Protection (AES-256 and TLS).
+* **Enterprise Architecture Diagram:** Designed a custom DevSecOps and cloud infrastructure diagram using Microsoft Visio. Visually mapped the secure flow from the local developer environment, through the GitHub Actions pipeline, and into the segmented Azure Resource Group.
+* **Repository Organization:** Established a dedicated `images/` directory within the VS Code workspace to maintain clean repository hygiene. Uploaded the Visio export and linked it into the documentation using relative Markdown image paths (`![Alt Text](images/filename.png)`).
+
+**Tools & Techniques Learned:**
+* **Visio for the Web Efficiency:** Mastered the "Design Once, Duplicate Often" workflow to maintain consistent fonts and shapes, and utilized alignment tools to perfectly center icons within architectural boundary containers.
+* **High-Quality Asset Exporting:** Learned the specific settings required to export Visio diagrams as High-Resolution PNG files (without transparent backgrounds) to ensure crisp readability across both Light and Dark modes on GitHub.
+* **Markdown Hierarchy:** Reinforced the use of `##` to generate clean Level 2 Headings, creating a logical, easy-to-read hierarchy for standard technical documentation.
+* **Plain Text Code Blocks:** Used the ` ```text ` markdown block format to draft plain-text diagrams and outlines without triggering unwanted programming syntax highlighting.

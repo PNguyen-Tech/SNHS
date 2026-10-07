@@ -10,7 +10,7 @@ This project demonstrates how Microsoft Azure cloud services can be used to solv
 
 I designed and deployed a cloud-hosted website for the Alief Early College High School Science National Honor Society (SNHS) to provide a centralized public presence for students, parents, faculty, and prospective members.
 
-Beyond creating a website, the project serves as a practical demonstration of cloud infrastructure deployment, automated CI/CD pipelines, secure cloud storage, and production-style application lifecycle management.
+Beyond creating a website, the project serves as a practical demonstration of cloud infrastructure deployment, automated CI/CD pipelines, secure cloud storage, and a practical application lifecycle management workflow. 
 
 ---
 
@@ -73,7 +73,7 @@ To address our lack of online presence, I replaced a legacy, text-based Google F
 
 This project demonstrates how cloud technologies can improve operational efficiency for a small organization by:
 
-* Helped drive a 20% surge in student membership applications
+* Helped drive a 25% surge in student membership applications
 * Establishing a centralized online presence
 * Improving communication with students, parents, and faculty
 * Reducing manual website deployment tasks through automation
@@ -111,7 +111,7 @@ This project demonstrates how cloud technologies can improve operational efficie
 
 ---
 
-## 🔒 Security, Governance & Compliance Controls
+## 🔒 Security, Governance & Access Controls
 
 This project implements cloud security best practices to protect organizational resources, secure the deployment process, and safeguard data through identity management, encryption, and secure credential handling.
 
@@ -157,7 +157,7 @@ SNHS/
 │       └── azure-static-web-apps-*.yml   # GitHub Actions CI/CD workflow
 │
 ├── images/                               # Project diagrams and visual assets
-│   └── architecture-diagram.png          # Secure DevSecOps cloud architecture diagram
+│   └── architecture-diagram.png          # Secure cloud architecture diagram
 │
 ├── index.html                            # Main application entry point
 ├── README.md                             # Project documentation
@@ -171,8 +171,6 @@ Planned improvements include:
 
 * Infrastructure as Code (Terraform)
 * Azure Monitor for application monitoring and diagnostics
-* Azure Key Vault for centralized secret management
-* Performance monitoring and analytics
 
 ---
 
